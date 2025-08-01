@@ -32,12 +32,7 @@
          "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
-         "format": "{name}: {icon}",
-         "format-icons": {
-             "urgent": "",
-             "active": "",
-             "default": ""
-         }
+         "format": "{name}",
      },
     "keyboard-state": {
         "numlock": true,
@@ -164,7 +159,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
+        "format": "{volume}% {icon}   {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
